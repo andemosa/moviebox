@@ -21,16 +21,16 @@ This is a movie discovery web application that allows users to search for movies
 
 ### Screenshot
 
-![Desktop view](./screenshots)
+![Desktop view](./screenshots/moviebox-1.png)
 ###
-![Desktop view](./screenshots)
+![Desktop view](./screenshots/moviebox-2.png)
 ###
-![Mobile view](./screenshots)
+![Mobile view](./screenshots/mobile.jpg)
 
 
 ### Links
 
-- Live Site URL: ()
+- Live Site URL: (https://moviebox-chi.vercel.app/)
 
 ## My process
 
