@@ -1,27 +1,75 @@
-# React + TypeScript + Vite
+# Moviebox
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a movie discovery web application that allows users to search for movies and view details about them. 
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### The challenge
 
-- Configure the top-level `parserOptions` property like this:
+- Implement the [figma design](https://www.figma.com/file/tVfgoNfhYkQaUkh8LGqRab/MovieBox-(Community)?type=design&node-id=1220-324&mode=design&t=6998DWtjQrxz8mOf-0)
+- Use data from [provided endpoint](https://www.themoviedb.org/)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### Screenshot
+
+![Desktop view](./screenshots)
+###
+![Desktop view](./screenshots)
+###
+![Mobile view](./screenshots)
+
+
+### Links
+
+- Live Site URL: ()
+
+## My process
+
+### Built with
+
+- TypeScript
+- [React](https://reactjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [React Query](https://tanstack.com/query/latest)
+
+
+## Install
+
+```
+yarn install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Setup your Environment Variables
+
+```
+1) change this file name .env.example to .env
+2) open .env and paste your TMDB api url and API key here :  
+VITE_API_KEY="tmdb api key"
+VITE_BASE_URL="tmdb url"
+```
+
+## Getting Started
+
+Then, run the development server:
+
+```
+yarn dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+
+You can start editing the page by modifying `src/App.tsx`. The page auto-updates as you edit the file.
+
+## Author
+
+- Twitter - [@andemosa](https://www.twitter.com/andemosa)
