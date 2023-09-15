@@ -107,7 +107,7 @@ const MovieDisplay = ({ data, term }: { data: IMovie[]; term: string }) => {
                   key={movie.id}
                   id={movie.id}
                   title={movie.title}
-                  releaseDate={movie.release_date.slice(0, 4)}
+                  releaseDate={movie.release_date}
                   posterUrl={`https://image.tmdb.org/t/p/w300${movie.poster_path}`}
                 />
               ))}
