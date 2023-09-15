@@ -12,7 +12,7 @@ const Card = ({
   posterUrl: string;
 }) => {
   return (
-    <Link to={`/movie/${id}`} className="w-full">
+    <Link to={`/movies/${id}`} className="w-full">
       <div data-testid="movie-card" className=" flex flex-col justify-center ">
         <img
           data-testid="movie-poster"

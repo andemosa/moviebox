@@ -15,7 +15,7 @@ function App() {
       <div className="max-w-[1480px] m-auto w-full">
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/movie/:id" element={<MoviePage />} />
+          <Route path="/movies/:id" element={<MoviePage />} />
           <Route path="/search/:term" element={<SearchPage />} />
           <Route path="*" element={<ErrorPage error={error} />} />
         </Routes>

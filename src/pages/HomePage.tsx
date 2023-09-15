@@ -11,7 +11,7 @@ import { IError, IMovie } from "@customTypes/movie";
 import { API_KEY, axiosInstance } from "@utils/index";
 
 const Homepage = () => {
-  const apiUrl = `/discover/movie?api_key=${API_KEY}&primary_release_year=${new Date().getFullYear()}&sort_by=vote_average.desc&vote_count.gte=1000`;
+  const apiUrl = `/movie/top_rated?api_key=${API_KEY}`;
 
   const { isLoading, error, data } = useQuery({
     queryKey: [apiUrl],

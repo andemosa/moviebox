@@ -35,6 +35,7 @@ const Hero = ({ heroMovies }: { heroMovies: IMovie[] }) => {
               </div>
             </div>
             <img
+              key={currentMovieIndex}
               data-testid="movie-poster"
               src={`https://image.tmdb.org/t/p/original${movies[currentMovieIndex].poster_path}`}
               className="h-[600px] w-full object-cover object-center"
