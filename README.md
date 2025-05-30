@@ -30,7 +30,7 @@ This is a movie discovery web application that allows users to search for movies
 
 ### Links
 
-- Live Site URL: (https://moviebox-chi.vercel.app/)
+- Live Site URL: (https://moviebox-andemosa.vercel.app/)
 
 ## My process
 
